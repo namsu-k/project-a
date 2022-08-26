@@ -1,0 +1,54 @@
+body {
+    margin : 0 0;
+}
+
+.top {
+}
+
+.top .title {
+    background-color: black;
+}
+
+.top .title h1{
+    width : 1000px;
+    color : white;
+    margin : auto;
+    padding: 33px 40px;
+    font : 40px bold;
+}
+
+.top .content {
+    width : 1000px;
+    margin : 0 auto;
+    padding : 40px;
+}
+
+.menu {
+    padding-bottom: 40px;
+}
+
+.top .content .menu * {
+    display: inline-block;
+    width : 322px;
+    border-style: solid;
+    border-width: 1px;
+    border-color : rgb(#d1d1d1);
+    text-align: center;
+    padding : 5px 0;
+}
+
+.menu .s2 {
+    margin-left : 14px;
+    margin-right : 14px;
+}
+
+.i0 {
+    font-size : 20px;
+    color : #000;
+    font-weight: bold;
+    border-bottom : 1px solid #454545;
+}
+
+.i1 {
+    font-size : 12px;
+}
