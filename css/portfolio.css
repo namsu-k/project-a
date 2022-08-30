@@ -1,8 +1,5 @@
-* {
-    font-family : "나눔 고딕", NanumGothic, "돋움", Dotum, sans-serif;
-}
-
 body {
+    font-family : "나눔 고딕", NanumGothic, "돋움", Dotum, sans-serif;
     margin : 0 0;
 }
 
@@ -30,10 +27,11 @@ body {
 }
 
 .menu {
+    white-space : nowrap;
     padding-bottom: 30px;
 }
 
-.top .content .menu * {
+.top .content .menu .menu1{
     display: inline-block;
     width : 322px;
     border-style: solid;
@@ -43,9 +41,36 @@ body {
     padding : 7.5px 0;
 }
 
-.menu .s2 {
-    margin-left : 14px;
-    margin-right : 14px;
+.menu .menu2 {
+    display: inline-block;
+    width : 322px;
+    border-style: solid;
+    border-width: 1px;
+    border-color : #d1d1d1;
+    text-align: center;
+    padding : 7.5px 0;
+    margin-left : 8.5px;
+    margin-right : 8.5px;
+}
+
+.menu3 {
+    display: inline-block;
+    width : 322px;
+    border-style: solid;
+    border-width: 1px;
+    border-color : #d1d1d1;
+    text-align: center;
+    padding : 7.5px 0;
+}
+
+.top .content .menu :hover {
+    border-color : #454545;
+    font-weight: bold;
+}
+.top .content .menu a{
+    text-decoration: none;
+    color : #000;
+    font-size : 16px;
 }
 
 /* .i0 {
@@ -121,11 +146,6 @@ body {
     color : #000;
 }
 
-.menu :hover{
-    /* border-color : #454545; */
-    border-color : #ffffff;
-    font-weight: bold;
-}
 
 .kids-size table {
     width : 100%;
@@ -256,21 +276,6 @@ body {
 
 }
 
-.i2 .item .certifi {
-    border : 1px solid #08a600;
-    background-color: #4ec53d;
-    font-size : 12px;
-    color : #fff;
-}
-
-.i2 .item .complete {
-    width : 100%;
-    border : 1px solid #08a600;
-    background-color: #4ec53d;
-    font : 16px;
-    color : #fff;
-}
-
 .id label {
     display : block;
     padding-top : 20px;
@@ -283,4 +288,181 @@ body {
     width : 890px;
     height: 31px;
     margin-left : 20px;
+}
+
+.pwd label{
+    display : block;
+    padding-top : 20px;
+    padding-left : 20px;
+    padding-bottom : 10px;
+}
+
+.pwd input {
+    display : block;
+    width : 890px;
+    height : 31px;
+    margin-left : 20px;
+}
+
+.name label {
+    display : block;
+    padding-top : 20px;
+    padding-left : 20px;
+    padding-bottom : 10px;
+}
+
+.name input {
+    display : block;
+    width : 890px;
+    height : 31px;
+    margin-left : 20px;
+}
+
+.birth label {
+    display : block;
+    padding-top : 20px;
+    padding-left : 20px;
+    padding-bottom : 10px;
+}
+
+.birth div {
+    display : block;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    white-space : nowrap;
+}
+
+.birth div select {
+    display : inline-block;
+    width : 293px;
+    height: 31px;
+}
+
+.birth div option {
+    font-size: 12px;
+    font-weight: normal;
+    color : #000;
+}
+
+#month {
+    margin-left : 5px;
+    margin-right : 5px;
+}
+
+.sex span {
+    display : block;
+    padding-left : 20px;
+    padding-bottom : 10px;
+}
+
+.sexselect {
+    margin-left : 10px;
+}
+
+.sexselect label {
+    font-size : 12px;
+    font-weight: normal;
+    color : #000;
+}
+.sexselect :nth-child(2) {
+    padding-right : 50px;    
+}
+
+.email label {
+    display : block;
+    padding-top : 10px;
+    padding-left : 20px;
+    padding-bottom : 10px;
+}
+
+.email input {
+    display : block;
+    width : 890px;
+    height : 31px;
+    margin-left : 20px;
+}
+
+.phone label {
+    display : block;
+    padding-top : 10px;
+    padding-left : 20px;
+    padding-bottom : 10px;
+}
+
+#phone {
+    display : inline-block;
+}
+
+.phone button {
+    border : 1px solid #08a600;
+    background-color: #4ec53d;
+    font-size : 12px;
+    color : #fff;
+}
+
+.phone div {
+    padding-top : 5px;
+    padding-bottom : 5px;
+}
+
+.phone div input {
+    width : 710px;
+    height : 31px;
+}
+
+.phone div button {
+    width : 160px;
+    height : 37px;
+    margin-left : 5px;
+}
+
+.phone input {
+    display : block;
+    width : 890px;
+    height : 31px;
+    margin-left : 20px;
+}
+
+.hobby p {
+    display : block;
+    padding-top : 10px;
+    padding-left : 20px;
+    padding-bottom : 10px;
+}
+
+.hobby div {
+    font-size : 12px;
+    font-weight: normal;
+    color : #000;
+    margin-left : 20px;
+}
+
+.hobby div label {
+    margin-right : 60px;
+}
+
+.introduce label {
+    display : block;
+    padding-left : 20px;
+    padding-bottom : 10px;
+}
+
+.introduce textarea {
+    margin-left : 20px;
+    width : 890px;
+    height : 150px;
+    resize: none;
+}
+
+.complete {
+    width : 898px;
+    height : 45px;
+    margin-top : 20px;
+    margin-left : 20px;
+    margin-bottom : 20px;
+    border : 1px solid #08a600;
+    background-color: #4ec53d;
+    font-size : 16px;
+    color : #fff;
+
 }

@@ -13,7 +13,9 @@
         
         <div class="content">
             <div class="menu">
-                <div class="s1">테이블 요소</div><div class="s2">폼 요소</div><div class="s3">리스트 요소</div>
+                <a class="menu1" href="#">테이블 요소</a>
+                <a class="menu2" href="#">폼 요소</a>
+                <a class="menu3" href="#">리스트 요소</a>
             </div>
         
             <div class="context">
@@ -167,58 +169,71 @@
                                 <input id="id" type="text">
                             </div>
                             <br>
+                            <div class="pwd">
+                                <label for="pwd">비밀번호</label>
+                                <input id="pwd" type="passward">
+                            </div>
                             <br>
-                            <label for="pwd">비밀번호</label>
+                            <div class="name">
+                                <label for="name">이름</label>
+                                <input id="name" type="text">
+                            </div>
                             <br>
-                            <input id="pwd" type="passward">
+                            <div class="birth">
+                                <label for="birth">생년월일</lable>
+                                <div>
+                                    <select id="year">
+                                        <option>년도</option>
+                                    </select>
+                                    <select id="month">
+                                        <option>월</option>
+                                    </select>
+                                    <select id="day">
+                                        <option>일</option>
+                                    </select>
+                                </div>
+                            </div>
                             <br>
-                            <label for="name">이름</label>
+                            <div class="sex">
+                                <span>성별</span>
+                                <div class="sexselect">
+                                    <input id="male" type="radio" name="sex"> <label for="male">남자</label>
+                                    <input id="female" type="radio" name="sex"> <label for="female">여자</label>
+                                </div>
+                            </div>
                             <br>
-                            <input id="name" type="text">
+                            <div class="email">
+                                <label for="email">이메일</label>
+                                <input id="email" type="email" placeholder="이메일 주소에 '@'를 포함해주세요.">
+                            </div>
                             <br>
-                            <label for="birth">생년월일</lable>
+                            <div class="phone">
+                                <label for="phone">휴대전화</label>
+                                <div>
+                                    <input id="phone" type="text" placeholder="숫자만 입력해주세요.">
+                                    <button type="button">인증번호 받기</button>
+                                </div>
+                                <input type="text" placeholder="인증번호를 입력해주세요.">
+                            </div>
                             <br>
-                            <select id="birth">
-                                <option>년도</option>
-                            </select>
-                            <select id="birth">
-                                <option>월</option>
-                            </select>
-                            <select id="birth">
-                                <option>일</option>
-                            </select>
+                            <div class="hobby">
+                                <p>취미</p>
+                                <div class="hobbyselcect">
+                                    <input type="checkbox" id="exercise"><label for="exercise">운동</label>
+                                    <input type="checkbox" id="cooking"><label for="cooking">요리</label>
+                                    <input type="checkbox" id="travel"><label for="travel">여행</label>
+                                    <input type="checkbox" id="game"><label for="game">게임</label>
+                                    <input type="checkbox" id="computer"><label for="computer">컴퓨터</label>
+                                    <input type="checkbox" id="music"><label for="music">음악</label>
+                                    <input type="checkbox" id="movie"><label for="movie">영화</label>
+                                    <input type="checkbox" id="reading"><label for="reading">독서</label>
+                                </div>
+                            </div>
                             <br>
-                            <label>성별</labal>
-                            <br>
-                            <input id="male" type="radio" name="sex"><label for="male">남자</label>
-                            <input id="female" type="radio" name="sex"><label for="female">여자</label>
-                            <br>
-                            <label for="email">이메일</label>
-                            <br>
-                            <input id="email" type="email" placeholder="이메일 주소에 '@'를 포함해주세요.">
-                            <br>
-                            <label for="phone">휴대전화</label>
-                            <br>
-                            <input id="phone" type="number" placeholder="숫자만 입력해주세요.">
-                            <input class="certifi" type="button" value="인증번호 받기">
-                            <br>
-                            <input type="number" placeholder="인증번호를 입력해주세요.">
-                            <br>
-                            <label>취미</label>
-                            <br>
-                            <input type="checkbox">운동
-                            <input type="checkbox">요리
-                            <input type="checkbox">여행
-                            <input type="checkbox">게임
-                            <input type="checkbox">컴퓨터
-                            <input type="checkbox">음악
-                            <input type="checkbox">영화
-                            <input type="checkbox">독서
-                            <br>
-                            <label for="welcome">가입인사</label>
-                            <br>
-                            <textarea id="welcome"></textarea>
-                            <br>
+                            <div class="introduce">
+                                <label for="welcome">가입인사</label>
+                                <textarea id="welcome"></textarea>
+                            </div>
                             <input class="complete" type="button" value="가입하기">
                         </form>
                     </div>
