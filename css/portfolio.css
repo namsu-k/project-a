@@ -464,5 +464,206 @@ body {
     background-color: #4ec53d;
     font-size : 16px;
     color : #fff;
+}
 
+.meaning h4 {
+    font-size : 14px;
+    font-weight : bold;
+    color : #000;
+}
+
+.meaning article {
+    border : 1px solid #e4e4e4;
+    padding : 20px;
+}
+.meaning article h1 {
+    text-align: center;
+    font-size : 32px;
+}
+
+.meaning article strong {
+    font-size : 14px;
+}
+
+.meaning article span {
+    font-size : 12px;
+    color : #559bfa;
+}
+
+.livesearch h4 {
+    font-size : 14px;
+}
+
+.livesearch article {
+    border : 1px solid #e4e4e4;
+    padding : 10px 20px;
+    width : 200px;
+}
+
+.livesearch article .rank {
+    display : inline-block;
+    border : 1px solid #e0e0e0;
+    font-size : 10px;
+    color : #666;
+    width : 15px;
+    height : 13px;
+    text-align: center;
+    padding-top : 2px;
+}
+
+.cookie h4 {
+    font-size : 14px;
+    font-weight : bold;
+}
+
+.cookie ul {
+    border : 1px solid #e4e4e4;
+    padding : 20px;
+    padding-left : 35px;
+}
+
+.cookie ul li {
+    font-size : 12px;
+    padding : 5px;
+}
+.cookie ul :nth-child(1) {
+    font-weight: bold;
+}
+
+.cookie ul :nth-child(1) span {
+    color : #559bfa
+}
+
+.cookie ul :nth-child(2) span {
+    color : #ec5336;
+}
+
+.cookie ul :nth-child(3) a {
+    color : #559bfa;
+    text-decoration: underline;
+}
+
+.cookie ul :last-child a {
+    color : #559bfa;
+    text-decoration: underline;
+}
+
+.news h4 {
+    font-size : 14px;
+}
+
+.news article {
+    border : 1px solid #e4e4e4;
+    padding-left : 20px;
+}
+
+.news article img {
+    float: left;
+    margin-right : 10px;
+}
+
+.news article div p {
+    margin-top : 5px;
+    margin-bottom : 5px;
+}
+
+.newstitle {
+    font-weight : bold;
+}
+
+.news article .first {
+    margin : 10px 0;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+
+.news .first .newstitle {
+    font-size : 14px;
+    padding-top : 3px;
+    padding-bottom : 10px;
+}
+
+.news article .second {
+    padding-top : 10px;
+    padding-bottom : 10px;
+    border-top : 1px solid #e4e4e4;
+    border-bottom : 1px solid #e4e4e4;
+}
+
+.news .second .newstitle {
+    font-size : 14px;
+    padding-top : 3px;
+    padding-bottom : 10px;
+}
+
+.news article .third {
+    margin : 10px 0;
+    padding-top : 5px;
+    padding-bottom : 10px;
+}
+
+.news .third .newstitle {
+    font-size : 14px;
+    padding-top : 3px;
+    padding-bottom : 10px;
+}
+
+.webtoon h4 {
+    font-size : 14px;
+}
+
+.webtoon article {
+    white-space: normal;
+    border : 1px solid #e4e4e4;
+    padding : 20px 20px 10px 20px;
+}
+.webtoon a {
+    display : inline-block;
+    text-decoration: none;
+    color : #000;
+    margin-bottom : 10px;
+    
+}
+
+.webtoon h4 {
+    margin : 5px 0 0 0;
+}
+
+.webtoon p {
+    margin : 5px 0 0 0;
+}
+
+.webtoon span {
+    font-size : 14px;
+    font-weight : bold;
+}
+
+.webtoon .cuttoon {
+    border : 1px solid #71b036;
+    background-color: #80c83d;
+    font-size : 10px;
+    color : #fff;
+    padding : 2px 3px;
+}
+
+.webtoon .smarttoon {
+    border : 1px solid #df4e28;
+    background-color: #ec5336;
+    font-size : 10px;
+    color : #fff;
+    padding : 2px 3px;
+}
+
+.webtoon .wt2 {
+    margin-left : 15px;
+    margin-right : 15px;
+}
+
+.webtoon .wt5 {
+    margin-left : 15px;
+    margin-right : 15px;
+}
+
+.webtoon article :hover {
+    text-decoration: underline;
 }
